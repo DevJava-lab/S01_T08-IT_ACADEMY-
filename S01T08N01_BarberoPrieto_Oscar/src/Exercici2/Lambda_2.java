@@ -10,7 +10,8 @@ public class Lambda_2 {
 
 		List<String> resultat = filtreLlista(paraules, "o", 5);
 
-		System.out.println(resultat);
+		resultat.forEach(p->System.out.println(p));
+		
 	}
 
 	public static List<String> filtreLlista(List<String> elements, String vocal, int numLletres) {

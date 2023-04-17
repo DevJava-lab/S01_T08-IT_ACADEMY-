@@ -9,8 +9,8 @@ public class Lambda_1 {
 		List<String> paraules = Arrays.asList("xocolata", "llet", "foto", "cotxe", "paper", "pedra", "telefon");
 
 		List<String> resultat = filtreLlista(paraules, "o");
-
-		System.out.println(resultat);
+		
+		resultat.forEach(p->System.out.println(p));
 	}
 
 	public static List<String> filtreLlista(List<String> elements, String vocal) {
